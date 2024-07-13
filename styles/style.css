@@ -25,16 +25,17 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    position: relative; /* Adicione esta linha para garantir que o pseudo-elemento seja posicionado corretamente */
 }
 
-body::before{
+body::before {
     content: '';
     position: absolute; /* Garante que o pseudo-elemento cobre todo o contêiner */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/assets/img-fundo.jpg') no-repeat center center;
+    background: url('/assets/img-fundo.jpg') no-repeat center center; /* Remova a barra inicial */
     background-size: cover;
     opacity: 0.3; /* Define a opacidade da imagem de fundo */
     z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
@@ -116,7 +117,7 @@ h1 {
     border-radius: 8px;
     font-size: 1.25rem;
     font-weight: 800;
-    padding: 1vw 10vw;
+    padding: 0.7rem 10vw;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -125,5 +126,3 @@ h1 {
 .apresentacao__botao__link:hover {
     background-color: var(--cor-botao-hover);
 }
-
-       
