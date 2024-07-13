@@ -35,7 +35,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./assets/img-fundo.jpg') no-repeat center center; /* Remova a barra inicial */
+    background: url('/assets/img-fundo.jpg') no-repeat center center; /* Remova a barra inicial */
     background-size: cover;
     opacity: 0.3; /* Define a opacidade da imagem de fundo */
     z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
