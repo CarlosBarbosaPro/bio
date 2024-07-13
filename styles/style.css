@@ -47,6 +47,21 @@ body::before{
     gap: 25px;
 }
 
+.imagem {
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+}
+
+.apresentacao__imgagem {
+    width: 14rem;
+    height: 14rem;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 50px;
+    margin-bottom: 6px;
+}
+
+
 .apresentacao__conteudo {
     width: 100%;
     display: flex;
@@ -90,13 +105,5 @@ body::before{
 .apresentacao__botao__link:hover {
     background-color: var(--cor-botao-hover);
 }
-
-.apresentacao__imgagem {
-    width: 14rem;
-    height: 14rem;
-    border: 2px solid var(--cor-terciaria);
-    border-radius: 50px;
-}
-
 
        
