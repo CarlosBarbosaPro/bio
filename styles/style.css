@@ -114,14 +114,16 @@ h3 {
 .apresentacao__botao__link {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     border: 2px solid var(--cor-terciaria);
     width: 100%;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.438);
     border-radius: 8px;
     font-size: 1.25rem;
     font-weight: 800;
-    padding: 0.7rem 10vw;
+    padding: 0.6rem 10vw;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
