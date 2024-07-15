@@ -29,6 +29,7 @@ body {
 }
 
 .img-fundo {
+    content: '';
     position: absolute; /* Garante que o pseudo-elemento cobre todo o contêiner */
     top: 0;
     left: 0;
