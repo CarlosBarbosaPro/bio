@@ -28,7 +28,7 @@ body {
     position: relative; /* Adicione esta linha para garantir que o pseudo-elemento seja posicionado corretamente */
 }
 
-body::before {
+.img-fundo {
     content: '';
     position: absolute; /* Garante que o pseudo-elemento cobre todo o contêiner */
     top: 0;
