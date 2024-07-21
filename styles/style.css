@@ -34,7 +34,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 105vh;
+    height: 114vh;
     background-size:cover;
     opacity: 0.5; /* Define a opacidade da imagem de fundo */
     z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
@@ -52,7 +52,7 @@ body {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 16px;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
 }
 
 .apresentacao__imgagem {
